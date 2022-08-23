@@ -183,7 +183,6 @@ export const getAlluser = async (req, res) => {
     res.status(500).send({ success: false, message: '伺服器錯誤' })
   }
 }
-
 // 刪除
 export const deleteUsers = async (req, res) => {
   try {
